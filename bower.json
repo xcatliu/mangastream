@@ -1,0 +1,26 @@
+{
+  "name": "mangastream",
+  "version": "0.0.0",
+  "homepage": "https://github.com/xcatliu/mangastream",
+  "authors": [
+    "xcatliu <xcatliu@gmail.com>"
+  ],
+  "description": "A wordpress theme for mangastream",
+  "main": "index.php",
+  "keywords": [
+    "wordpress",
+    "theme",
+    "mangastream"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.1"
+  }
+}

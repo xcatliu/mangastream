@@ -12,7 +12,7 @@
         <div class="header">
             <div class="grid">
                 <div class="unit one-third">
-                    <a href="<?php home_url(); ?>">
+                    <a href="<?php echo site_url(); ?>">
                         <div class="logo">
                         </div>
                     </a>
@@ -29,7 +29,7 @@
                             <li class="nav-li pull-right">
                                 <a href="javascript:void(0);" class="nav-a">Settings</a>
                             </li><li class="nav-li">
-                                <a href="<?php home_url(); ?>" class="nav-a active">Home</a>
+                                <a href="<?php echo site_url(); ?>" class="nav-a active">Home</a>
                             </li><li class="nav-li">
                                 <a href="javascript:void(0);" class="nav-a">Read Manga <i class="fa fa-caret-down"></i></a>
                             </li><li class="nav-li">

@@ -1,0 +1,24 @@
+{
+  "name": "mangastream",
+  "version": "0.0.1",
+  "description": "A wordpress theme for mangastream",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/xcatliu/mangastream.git"
+  },
+  "keywords": [
+    "mangastream",
+    "wordpress",
+    "theme"
+  ],
+  "author": "xcatliu <xcatliu@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/xcatliu/mangastream/issues"
+  },
+  "homepage": "https://github.com/xcatliu/mangastream"
+}

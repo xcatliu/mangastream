@@ -1,3 +1,16 @@
+/*
+Theme Name: mangastream
+Theme URI: http://github.com/xcatliu/mangastream
+Author: xcatliu <xcatliu@gmail.com>
+Author URI: http://xcatliu.com/
+Description: A wordpress theme for mangastream
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: mangastream
+*/
+
+
 /* over write */
 /* Expand the wrap a bit further on larger screens */
 @media screen and (min-width: 1210px) {

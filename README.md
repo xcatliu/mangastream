@@ -1,7 +1,7 @@
 Mangastream
 ===========
 
-A wordpress theme for mangastream.
+A wordpress theme for [mangastream](http://mangastream.com/).
 
 Version: 0.1.0-pre-alpha.1
 

@@ -5,7 +5,7 @@ A wordpress theme for mangastream.
 
 Version: 0.1.0-pre-alpha.1
 
-Warning: This is an unfinished theme.
+**Warning: This is an unfinished theme.**
 
 
 Usage

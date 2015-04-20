@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>mangastream</title>
+        <title>      
+            <?php wp_title( '|', true, 'right' ); ?>
+            <?php bloginfo( 'name' ); ?>
+        </title>
+        
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/bower_components/normalize-css/normalize.css'; ?>">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/bower_components/gridism/gridism.css'; ?>">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/bower_components/font-awesome/css/font-awesome.css' ?>">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+    
+    <?php wp_head() ?>
+
     </head>
     <body class="wrap wider">
         <div class="header">
@@ -42,4 +45,3 @@
                 </div>
             </div>
         </div>
-

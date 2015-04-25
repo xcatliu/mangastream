@@ -20,6 +20,8 @@
                     <h2 class="single-post-title"><?php the_title(); ?></h2>
                     <div class="post-content single-post-content">
                         <?php the_content(); ?>
+                        
+                        <?php comments_template(); ?>
                     </div>
                 </div>
             </div>
@@ -29,4 +31,3 @@
         <?php endif ?>
     </div>
 </div>
-

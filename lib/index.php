@@ -5,11 +5,19 @@
         <div class="unit two-thirds">
             <div class="index-top3">
                 <div class="grid">
-                    <?php $mangaCategoryId = get_term_by('name', '漫画', 'category') -> term_id; ?>
+                
+
+                 <?php $mangaCategoryId = get_term_by('name', '漫画', 'category') -> term_id; ?>
                     <?php foreach (get_posts(array('category' => $mangaCategoryId, 'posts_per_page' => 3)) as $post) : setup_postdata($post); ?>
+                        
+
+                 <?php
+                     $thumbnail_id = get_post_thumbnail_id(); 
+                     $thumbnail_url = wp_get_attachment_image_src( $thumbnail_id, 'thumbnail-size', true );
+                 ?>
                         <div class="unit one-third">
                             <a href="<?php the_permalink(); ?>" class="index-top3-a">
-                                <div class="index-top3-bg" style="background:url('<?php echo get_post_custom()['preImage']['0']; ?>');">
+                                <div class="index-top3-bg" style="background:url('<?php echo $thumbnail_url[0]; ?>');">
                                     <div class="index-top3-header-bg">
                                         <div class="index-top3-header">
                                             <h2 class="index-top3-title"><?php the_title(); ?></h2>
@@ -40,4 +48,3 @@
         </div>
     </div>
 </div>
-

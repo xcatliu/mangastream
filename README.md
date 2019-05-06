@@ -1,6 +1,8 @@
 Mangastream WordPress theme
 ===========================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xcatliu/mangastream.svg)](https://greenkeeper.io/)
+
 A project by @xcatliu
 
 

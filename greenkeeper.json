@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "lib/bower_components/font-awesome/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
